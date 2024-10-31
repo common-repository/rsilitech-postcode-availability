@@ -1,0 +1,26 @@
+*** RSilitech postcode availability ***
+Version 1.0.7
+* Add postcode cod available select option default no
+
+
+Version 1.0.6
+* Check availability button changed for mobile device
+* Cod availability introduced
+* On press enter check availability
+* COD column in postcode list 
+
+Version 1.0.5
+* Shortcode for postcode availability check has introduced
+
+Version 1.0.4
+* Settings page intoduced in admin
+* CSV export Introduced
+
+Version 1.0.3
+* "Delivery Time (in days)" has been updated
+
+Version 1.0.2
+* "Change postcode button" in check availability section in frontend updated
+
+Version 1.0.1
+* Initial release.

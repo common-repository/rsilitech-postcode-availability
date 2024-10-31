@@ -1,0 +1,42 @@
+/**
+ * All of the CSS for your frontend
+ * 
+ */
+
+.loader {
+  border: 3px solid #000;
+  border-radius: 50%;
+  border-top: 3px solid #fff;
+  width: 18px;
+  height: 18px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+button#rspa_change_postcode{
+	float: right;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.rsilitech-group {
+    display: flex;
+    width: auto;
+}
+
+.search_icon{
+	-webkit-transform: rotate(321deg);
+    -moz-transform: rotate(321deg);
+    -o-transform: rotate(321deg);
+    transform: rotate(321deg);
+    font-size: 30px;
+    color: #fff;
+}

@@ -1,0 +1,411 @@
+/**
+ * All of the CSS admin functionality should be
+ * included in this file.
+ */
+
+.rsilitech_card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    width: 100%;
+}
+
+.rsilitech-btn {
+    padding: 0.5em 2em;
+    color: #fff;
+    background-color: #007cba;
+    border: 2px solid #007cba;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.rsilitech_wrapper {
+    padding: 0 1px;
+    margin-top: 2em;
+}
+
+.rsilitech_card__header {
+    border-bottom: 1px solid #5B5F97;
+}
+
+.rsilitech_card__body {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.rsilitech_card__footer {
+    background: #dddddd38;
+    padding: 5px 15px;
+    min-height: 15px;
+}
+
+.rsilitech_card__header {
+    display: flex;
+    align-items: center;
+}
+
+.save_btn {
+    padding: 0.5em 2em;
+    color: #fff;
+    background-color: #007cba;
+    border: 2px solid #007cba;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.flex_float_right {
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+.rsilitech_card__footer:hover {
+    background: #dddddd38;
+}
+
+.rsilitech__title {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 1rem 1.5rem;
+    _background: #007cba;
+    color: #007cba;
+    cursor: pointer;
+    margin: 0;
+    transition: .3s ease;
+}
+
+.rsilitech__copy {
+    display: none;
+    padding: 1rem 1.5rem 2rem 1.5rem;
+    color: gray;
+    line-height: 1.6;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.display-block {
+    display: block;
+}
+
+.rsilitech__copy--open {
+    display: block;
+}
+
+.rsilitech_col_1 {
+    width: 8.33%;
+    margin: 1%;
+}
+
+.rsilitech_col_2 {
+    width: 16.66%;
+    margin: 1%;
+}
+
+.rsilitech_col_3 {
+    width: 25%;
+    margin: 1%;
+}
+
+.rsilitech_col_4 {
+    width: 33.33%;
+    margin: 1%;
+}
+
+.rsilitech_col_6 {
+    width: 50%;
+    margin: 1%;
+}
+
+.rsilitech_col_8 {
+    width: 66.66%;
+    margin: 1%;
+}
+
+.rsilitech_col_9 {
+    width: 75%;
+    margin: 1%;
+}
+
+.rsilitech_col_12 {
+    width: 100%;
+    margin: 1%;
+}
+
+.rsilitech_row {
+    display: flex;
+}
+
+.rsilitech-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.rsilitech-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+select.rsilitech-control {
+    min-width: 100%;
+    min-height: 30px;
+    line-height: 1.5;
+}
+
+textarea.rsilitech-control {
+    height: auto;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+.rsilitech-group label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mendatory {
+    color: red;
+}
+
+
+/*---- Setting page styles-----*/
+
+div#rspa_settings_padding {
+    display: flex;
+    flex-direction: row
+}
+
+input#rspa_frontend_check_button_background_color_chooser,
+input#rspa_frontend_check_button_text_color_chooser,
+input#rspa_frontend_check_button_border_color_chooser {
+    width: 25%;
+    padding: 0px;
+    margin: 0 21px;
+    cursor: pointer;
+}
+
+input.postcode_check {
+    margin-left: 8px;
+}
+
+.rsilitech_link {
+    padding: 0.3em .8em;
+    color: #fff;
+    background-color: #007cba;
+    border: 2px solid #007cba;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a.rsilitech_link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a.rsilitech_link:hover {
+    color: #fff;
+}
+
+.marginp-left-6 {
+    margin-left: 6px;
+}
+
+.mrginp-1 {
+    margin: 1px;
+}
+
+.mrginp-2 {
+    margin: 2px;
+}
+
+.mrginp-3 {
+    margin: 3px;
+}
+
+.mrginp-4 {
+    margin: 4px;
+}
+
+.mrginp-5 {
+    margin: 5px;
+}
+
+.mrginp-6 {
+    margin: 6px;
+}
+
+.mrginp-7 {
+    margin: 7px;
+}
+
+.mrginp-8 {
+    margin: 8px;
+}
+
+.mrginp-9 {
+    margin: 9px;
+}
+
+.mrginp-10 {
+    margin: 9px;
+}
+
+.mrginp-11 {
+    margin: 9px;
+}
+
+.mrgine-1 {
+    margin: 1em;
+}
+
+.mrgine-2 {
+    margin: 2em;
+}
+
+.mrgine-3 {
+    margin: 3em;
+}
+
+.mrgine-4 {
+    margin: 4em;
+}
+
+.mrgine-5 {
+    margin: 5em;
+}
+
+.mrgine-6 {
+    margin: 6em;
+}
+
+.mrgine-7 {
+    margin: 7em;
+}
+
+.mrgine-8 {
+    margin: 8em;
+}
+
+.mrgine-9 {
+    margin: 9em;
+}
+
+.mrgine-10 {
+    margin: 10em;
+}
+
+.mrgine-11 {
+    margin: 11em;
+}
+
+.margin-top-1{
+    margin-top:1em;
+}
+
+.paddingp-0 {
+    padding: 0px;
+}
+
+.paddingp-1 {
+    padding: 1px;
+}
+
+.paddingp-2 {
+    padding: 2px;
+}
+
+.paddingp-3 {
+    padding: 3px;
+}
+
+.paddingp-4 {
+    padding: 4px;
+}
+
+.paddingp-5 {
+    padding: 5px;
+}
+
+.paddingp-6 {
+    padding: 6px;
+}
+
+.paddingp-7 {
+    padding: 7px;
+}
+
+.paddingp-8 {
+    padding: 8px;
+}
+
+.paddingp-9 {
+    padding: 9px;
+}
+
+.paddingp-10 {
+    padding: 10px;
+}
+
+.paddingp-11 {
+    padding: 11px;
+}
+
+.no-border{
+    border:none;
+}
+.rspa-card-with-padding{
+    padding:15px 0px 0px 0px;
+}
+
+#rsilitech_rspa_csv_file_upload,
+#rsilitech_rspa_csv_file_upload_submit {
+    display: none;
+}
+
+#rspa_csv_file_upload_msg {
+    height: 11px;
+    background: red;
+    width: 0%;
+}
+a#rspa_import_csv:after {
+    content: "Pro";
+    margin-left: 10px;
+    background: red;
+    padding: 2px;
+    width: 21px;
+    height: 21px;
+    border-radius: 12px;
+    margin: -21px 0px 0px 0px;
+	position:absolute;
+}
